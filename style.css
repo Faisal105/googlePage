@@ -1,0 +1,97 @@
+* {
+	font-family: 'Product Sans', sans-serif;
+}
+
+main {
+	text-align: center;
+}
+
+h1 {
+	font-size: 6rem;
+	font-family: 'Product Sans light', sans-serif;
+	display: inline;
+}
+
+#g1 {
+	color: #4385f5;
+}
+
+#o1 {
+	color: #e94335;
+}
+
+#o2 {
+	color: #fcbd03;
+}
+
+#g2 {
+	color: #4385f5;
+}
+
+#l {
+	color: #34a753;
+}
+
+#e {
+	color: #e94335;
+}
+
+.logo {
+	margin: 40px 0;
+	margin-top: 175px;
+}
+input[type='text'] {
+	width: 430px;
+	padding: 12px 45px;
+	border-radius: 20px;
+	border: 1px solid gray;
+}
+
+input[type='submit'] {
+	margin: 40px 5px;
+	padding: 10px 20px;
+	font-size: 0.9rem;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	color: #222;
+	border: none;
+}
+
+input[type='submit']:hover {
+	cursor: pointer;
+	background-color: rgb(236, 236, 236);
+}
+
+input:hover {
+	box-shadow: 0 0 3px #666;
+}
+
+#search {
+	position: absolute;
+	content: url('./logo/search.png');
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+#mic {
+	position: absolute;
+	content: url('./logo/mic.png');
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 485px;
+}
+
+p,
+p > a {
+	font-family: 'Product Sans light', sans-serif;
+	font-size: 0.85rem;
+	text-decoration: none;
+	margin: 0px 1px;
+}
+
+p > a:hover {
+	text-decoration: underline;
+}
